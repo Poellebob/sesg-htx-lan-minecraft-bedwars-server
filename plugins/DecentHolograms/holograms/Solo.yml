@@ -1,0 +1,16 @@
+location: world:15.5:78,000:-31,5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lCLICK TO PLAY'
+    height: 0.4
+  - content: '&bSolo &7[v1.8]'
+    height: 0.4
+  - content: '&e&l%bw1058_group_count_solo% PLAYERS'
+  - content: ''
+  actions: {}

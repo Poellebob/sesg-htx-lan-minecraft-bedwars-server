@@ -1,0 +1,94 @@
+location: world:22,5:74,500:-10,5
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 0.0
+down-origin: true
+pages:
+- lines:
+  - content: '<#ANIM:burn:&b&l,&e&l>BedWars Bed Destroyed Top</#ANIM> &c&lALL TIME'
+    height: 0.6
+  - content: '&c1. &e%ajlb_lb_bw1058_stats_bedsdestroyed_1_alltime_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_1_alltime_value%'
+    height: 0.3
+  - content: '&c2. &e%ajlb_lb_bw1058_stats_bedsdestroyed_2_alltime_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_2_alltime_value%'
+    height: 0.3
+  - content: '&c3. &e%ajlb_lb_bw1058_stats_bedsdestroyed_3_alltime_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_3_alltime_value%'
+    height: 0.3
+  - content: '&c4. &e%ajlb_lb_bw1058_stats_bedsdestroyed_4_alltime_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_4_alltime_value%'
+    height: 0.3
+  - content: '&c5. &e%ajlb_lb_bw1058_stats_bedsdestroyed_5_alltime_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_5_alltime_value%'
+    height: 0.3
+  - content: '&c6. &e%ajlb_lb_bw1058_stats_bedsdestroyed_6_alltime_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_6_alltime_value%'
+    height: 0.3
+  - content: '&c7. &e%ajlb_lb_bw1058_stats_bedsdestroyed_7_alltime_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_7_alltime_value%'
+    height: 0.3
+  - content: '&c8. &e%ajlb_lb_bw1058_stats_bedsdestroyed_8_alltime_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_8_alltime_value%'
+    height: 0.3
+  - content: '&c9. &e%ajlb_lb_bw1058_stats_bedsdestroyed_9_alltime_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_9_alltime_value%'
+    height: 0.3
+  - content: '&c10. &e%ajlb_lb_bw1058_stats_bedsdestroyed_10_alltime_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_10_alltime_value%'
+    height: 0.3
+  - content: '#ICON: DIAMOND_SWORD'
+    height: 0.8
+  actions:
+    RIGHT:
+    - NEXT_PAGE
+- lines:
+  - content: '<#ANIM:burn:&b&l,&e&l>BedWars Bed Destroyed Top</#ANIM> &c&lMONTHLY'
+    height: 0.6
+  - content: '&c1. &e%ajlb_lb_bw1058_stats_bedsdestroyed_1_monthly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_1_monthly_value%'
+    height: 0.3
+  - content: '&c2. &e%ajlb_lb_bw1058_stats_bedsdestroyed_2_monthly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_2_monthly_value%'
+    height: 0.3
+  - content: '&c3. &e%ajlb_lb_bw1058_stats_bedsdestroyed_3_monthly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_3_monthly_value%'
+    height: 0.3
+  - content: '&c4. &e%ajlb_lb_bw1058_stats_bedsdestroyed_4_monthly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_4_monthly_value%'
+    height: 0.3
+  - content: '&c5. &e%ajlb_lb_bw1058_stats_bedsdestroyed_5_monthly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_5_monthly_value%'
+    height: 0.3
+  - content: '&c6. &e%ajlb_lb_bw1058_stats_bedsdestroyed_6_monthly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_6_monthly_value%'
+    height: 0.3
+  - content: '&c7. &e%ajlb_lb_bw1058_stats_bedsdestroyed_7_monthly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_7_monthly_value%'
+    height: 0.3
+  - content: '&c8. &e%ajlb_lb_bw1058_stats_bedsdestroyed_8_monthly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_8_monthly_value%'
+    height: 0.3
+  - content: '&c9. &e%ajlb_lb_bw1058_stats_bedsdestroyed_9_monthly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_9_monthly_value%'
+    height: 0.3
+  - content: '&c10. &e%ajlb_lb_bw1058_stats_bedsdestroyed_10_monthly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_10_monthly_value%'
+    height: 0.3
+  - content: '#ICON: DIAMOND_SWORD'
+    height: 0.8
+  actions:
+    LEFT:
+    - PREV_PAGE
+    RIGHT:
+    - NEXT_PAGE
+- lines:
+  - content: '<#ANIM:burn:&b&l,&e&l>BedWars Bed Destroyed Top</#ANIM> &c&lWEEKLY'
+    height: 0.6
+  - content: '&c1. &e%ajlb_lb_bw1058_stats_bedsdestroyed_1_weekly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_1_weekly_value%'
+    height: 0.3
+  - content: '&c2. &e%ajlb_lb_bw1058_stats_bedsdestroyed_2_weekly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_2_weekly_value%'
+    height: 0.3
+  - content: '&c3. &e%ajlb_lb_bw1058_stats_bedsdestroyed_3_weekly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_3_weekly_value%'
+    height: 0.3
+  - content: '&c4. &e%ajlb_lb_bw1058_stats_bedsdestroyed_4_weekly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_4_weekly_value%'
+    height: 0.3
+  - content: '&c5. &e%ajlb_lb_bw1058_stats_bedsdestroyed_5_weekly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_5_weekly_value%'
+    height: 0.3
+  - content: '&c6. &e%ajlb_lb_bw1058_stats_bedsdestroyed_6_weekly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_6_weekly_value%'
+    height: 0.3
+  - content: '&c7. &e%ajlb_lb_bw1058_stats_bedsdestroyed_7_weekly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_7_weekly_value%'
+    height: 0.3
+  - content: '&c8. &e%ajlb_lb_bw1058_stats_bedsdestroyed_8_weekly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_8_weekly_value%'
+    height: 0.3
+  - content: '&c9. &e%ajlb_lb_bw1058_stats_bedsdestroyed_9_weekly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_9_weekly_value%'
+    height: 0.3
+  - content: '&c10. &e%ajlb_lb_bw1058_stats_bedsdestroyed_10_weekly_name% &c- &e%ajlb_lb_bw1058_stats_bedsdestroyed_10_weekly_value%'
+    height: 0.3
+  - content: '#ICON: DIAMOND_SWORD'
+    height: 0.8
+  actions:
+    LEFT:
+    - PREV_PAGE

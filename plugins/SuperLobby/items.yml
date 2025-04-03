@@ -1,0 +1,34 @@
+game:
+  name: '&aGames Menú &8(Right Click)'
+  material: COMPASS
+  slot: 1
+  commands:
+  - 'player: game'
+  delay: 0
+  permission: superlobby.items.game
+lobby:
+  name: '&aLobby Selector &8(Right Click)'
+  material: GLASS_BOTTLE
+  slot: 9
+  commands:
+  - 'player: lobbyselector'
+  delay: 0
+  permission: superlobby.items.game
+profile:
+  name: '&aProfile &8(Right Click)'
+  material: SKULL_ITEM:3
+  slot: 2
+  skull: <player>
+  commands:
+  - 'player: profile'
+  delay: 0
+  permission: superlobby.items.game
+bedwarsmenu:
+  name: '&aBedWars Menu & Shop &8(Right Click)'
+  material: EMERALD
+  slot: 3
+  skull: <player>
+  commands:
+  - 'player: bedmenu'
+  delay: 0
+  permission: superlobby.items.game

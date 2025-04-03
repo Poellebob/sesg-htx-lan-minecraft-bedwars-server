@@ -1,0 +1,370 @@
+deliveryman:
+menu_title: '&8The Delivery Man'
+open_command:
+- delivery
+open_commands:
+  - '[sound] ENTITY_VILLAGER_YES'
+size: 54
+open_requirement:
+  requirements:
+    example_1:
+      type: has permission
+      permission: open.menu.*
+  deny_commands:
+  - '[message] &C&LSERVER &8&l»&7 You don''t have permission.'
+items:
+  WHITE_STAINED_GLASS_PANE:
+    material: STAINED_GLASS_PANE
+    data: 7
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: '&r'
+  Mysterybox1:
+    material: ENDER_CHEST
+    slot: 20
+    display_name: '&cMystery Box Delivery'
+    priority: 1
+    view_requirement:
+      requirements:
+        cooldown:
+          type: '=='
+          input: '%mcd_left_daily_reward%'
+          output: '0'
+    lore:
+    - '&7Your free weekly &b1 &7Mystery'
+    - '&7Boxes have arrived!'
+    - ''
+    - '&cClick to loot!'
+    click_commands:
+    - '[console] mcd add %player_name% daily_reward 604800'
+    - '[console] gmysteryboxes give %player_name% 1 3'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP '
+    - '[refresh]'
+
+  No_Mysterybox1:
+    material: MINECART
+    slot: 20
+    priority: 2
+    update: true
+    display_name: '&cMystery Box Delivery'
+    lore:
+    - '&7Your free weekly &b1 &7Mystery'
+    - '&7Boxes have arrived!'
+    - ''
+    - '&7Available on &c%mcd_left_formatted_daily_reward%'
+    click_commands:
+    - '[message] &C&LSERVER &8&l»&7 You need to wait &c%mcd_left_formatted_daily_reward% &7to claim this reward again&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+
+  MysteryBox2:
+    material: ENDER_CHEST
+    slot: 21
+    priority: 1
+    display_name: '&cMystery Box Delivery'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: '=='
+          input: '%mcd_left_daily_reward_vip%'
+          output: '0'
+        permission:
+            type: has permission
+            permission: mysterybox.daily.vip
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(5/20) &7have arrived!'
+    - ''
+    - '&7Requires &aVIP'
+    - ''
+    - '&cClick to loot!'
+    click_commands:
+    - '[console] mcd add %player_name% daily_reward_vip 604800'
+    - '[console] gmysteryboxes give %player_name% 5 3'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP '
+    - '[refresh]'
+    
+  No_MysteryBox2:
+    material: MINECART
+    slot: 21
+    priority: 2
+    update: true
+    display_name: '&cMystery Box Delivery'
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(5/20) &7have arrived!'
+    - ''
+    - '&7Requires &aVIP'
+    - ''
+    - '&7Available on &c%mcd_left_formatted_daily_reward_vip%'
+    view_requirement:
+      requirements:
+        permission:
+            type: has permission
+            permission: mysterybox.daily.vip
+    click_commands:
+    - '[message] &C&LSERVER &8&l»&7 You need to wait &c%mcd_left_formatted_daily_reward_vip% &7to claim this reward again&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    
+  No_MysteryBox2_permission:
+    material: ENDER_CHEST
+    slot: 21
+    priority: 3
+    display_name: '&cMystery Box Delivery'
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(5/20) &7have arrived!'
+    - ''
+    - '&7Requires &aVIP'
+    - ''
+    click_commands:
+    - '[message] &C&LSERVER &8&l»&7 You need to buy &aVIP&7 to claim this reward.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    
+  MysteryBox3:
+    material: ENDER_CHEST
+    slot: 22
+    display_name: '&cMystery Box Delivery'
+    priority: 1
+    view_requirement:
+      requirements:
+        cooldown:
+          type: '=='
+          input: '%mcd_left_daily_reward_vipp%'
+          output: '0'
+        permission:
+            type: has permission
+            permission: mysterybox.daily.vip+
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(10/20) &7have arrived!'
+    - ''
+    - '&7Requires &aVIP+'
+    - ''
+    - '&cClick to loot!'
+    click_commands:
+    - '[console] mcd add %player_name% daily_reward_vipp 604800'
+    - '[console] gmysteryboxes give %player_name% 5 3'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP '
+    - '[refresh]'
+    
+  No_MysteryBox3:
+    material: MINECART
+    slot: 22
+    display_name: '&cMystery Box Delivery'
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+            type: has permission
+            permission: mysterybox.daily.vip+
+    update: true
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(10/20) &7have arrived!'
+    - ''
+    - '&7Requires &aVIP+'
+    - ''
+    - '&7Available on &c%mcd_left_formatted_daily_reward_vipp%'
+    click_commands:
+    - '[message] &C&LSERVER &8&l»&7 You need to wait &c%mcd_left_formatted_daily_reward_vipp% &7to claim this reward again&7.'
+    - '[sound] ENTITY_VILLAGER_NO'    
+   
+  No_MysteryBox3_permission:
+    material: ENDER_CHEST
+    slot: 22
+    display_name: '&cMystery Box Delivery'
+    priority: 3
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(10/20) &7have arrived!'
+    - ''
+    - '&7Requires &aVIP+'
+    - ''
+    click_commands:
+    - '[message] &C&LSERVER &8&l»&7 You need to buy &aVIP+&7 to claim this reward.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    
+  MysteryBox4:
+    material: ENDER_CHEST
+    slot: 23
+    display_name: '&cMystery Box Delivery'
+    priority: 1
+    view_requirement:
+      requirements:
+        cooldown:
+          type: '=='
+          input: '%mcd_left_daily_reward_mvp%'
+          output: '0'
+        permission:
+            type: has permission
+            permission: mysterybox.daily.mvp
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(15/20) &7have arrived!'
+    - ''
+    - '&7Requires &bMVP'
+    - ''
+    - '&cClick to loot!'
+    click_commands:
+    - '[console] mcd add %player_name% daily_reward_mvp 604800'
+    - '[console] gmysteryboxes give %player_name% 5 3'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP '
+    - '[refresh]'
+    
+  No_MysteryBox4:
+    material: MINECART
+    slot: 23
+    display_name: '&cMystery Box Delivery'
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+            type: has permission
+            permission: mysterybox.daily.mvp
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(15/20) &7have arrived!'
+    - ''
+    - '&7Requires &bMVP'
+    - ''
+    - '&7Available on &c%mcd_left_formatted_daily_reward_mvp%'
+    click_commands:
+    - '[message] &C&LSERVER &8&l»&7 You need to wait &c%mcd_left_formatted_daily_reward_mvp% &7to claim this reward again&7.'
+    - '[sound] ENTITY_VILLAGER_NO'   
+
+  No_MysteryBox4_permission:
+    material: ENDER_CHEST
+    slot: 23
+    display_name: '&cMystery Box Delivery'
+    priority: 3
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(15/20) &7have arrived!'
+    - ''
+    - '&7Requires &bMVP'
+    - ''
+    click_commands:
+    - '[message] &C&LSERVER &8&l»&7 You need to buy &bMVP&7 to claim this reward.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    
+  MysteryBox5:
+    material: ENDER_CHEST
+    slot: 24
+    display_name: '&cMystery Box Delivery'
+    priority: 1
+    view_requirement:
+      requirements:
+        cooldown:
+          type: '=='
+          input: '%mcd_left_daily_reward_mvpp%'
+          output: '0'
+        permission:
+            type: has permission
+            permission: mysterybox.daily.mvp+
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(15/20) &7have arrived!'
+    - ''
+    - '&7Requires &6MVP+'
+    - ''
+    - '&cClick to loot!'
+    click_commands:
+    - '[console] mcd add %player_name% daily_reward_mvpp 604800'
+    - '[console] gmysteryboxes give %player_name% 5 3'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP '
+    - '[refresh]'
+    
+  No_MysteryBox5:
+    material: MINECART
+    slot: 24
+    display_name: '&cMystery Box Delivery'
+    priority: 2
+    update: true
+    view_requirement:
+      requirements:
+        permission:
+            type: has permission
+            permission: mysterybox.daily.mvp+
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(15/20) &7have arrived!'
+    - ''
+    - '&7Requires &6MVP+'
+    - ''
+    - '&7Available on &c%mcd_left_formatted_daily_reward_mvpp%'
+    click_commands:
+    - '[message] &C&LSERVER &8&l»&7 You need to wait &c%mcd_left_formatted_daily_reward_mvpp% &7to claim this reward again&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+
+  No_MysteryBox5_permission:
+    material: ENDER_CHEST
+    slot: 24
+    display_name: '&cMystery Box Delivery'
+    priority: 3
+    lore:
+    - '&7Your free weekly &b5 &7Mystery'
+    - '&7Boxes &b(15/20) &7have arrived!'
+    - ''
+    - '&7Requires &6MVP+'
+    - ''
+    click_commands:
+    - '[message] &C&LSERVER &8&l»&7 You need to buy &bMVP+&7 to claim this reward.'
+    - '[sound] ENTITY_VILLAGER_NO'
+   
+  close:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 49
+    display_name: '&c&lClose'
+    lore:
+    - '&8Click to close menu'
+    click_commands:
+    - '[close]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'

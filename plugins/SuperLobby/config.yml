@@ -1,0 +1,328 @@
+
+debug: false
+newconfig: true
+update-check: true
+prefix: '&6SuperLobby &e>> &7'
+messages: EN
+join-clear-inventory: true
+join-clear-inventory-bypass: false
+join-clear-chat: true
+join-clear-chat-bypass: false
+join-spawn: true
+command-spawn: true
+info-commands: true
+custom-events: true
+menu: true
+disable-daylight-sensor-interaction:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-dropper-interaction:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-hopper-interaction:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+disable-fence-gate-interaction:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-trapdoor-interaction:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+disable-button-interaction:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-dispenser-interaction:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - world
+  - lobby
+  - auth
+disable-noteblock-interaction:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+disable-armorstands-interaction:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+disable-door-interaction:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-rain:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-block-break:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-block-place:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-block-burn:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+disable-drop-item:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-item-move:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-item-damage:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+disable-pick-up-items:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+disable-entity-explode:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-damage:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+disable-hunger:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+disable-death-message:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+disable-creature-spawn:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+clear-drops-on-death:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+lobby-items:
+  enable: true
+  join-server: true
+  respawn: true
+  join-world: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+void-tp:
+  enable: true
+  level: 0
+  world:
+  - lobby
+  - world
+  - auth
+always-day:
+  enable: true
+  world:
+  - lobby
+  - auth
+  - world
+always-night:
+  enable: false
+  world:
+  - lobby
+  - world
+  - auth
+frame-protect:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+farm-protect:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - world
+  - auth
+jump-pads:
+  enable: true
+  plate-block: LIGHT_WEIGHTED_PRESSURE_PLATE
+  plate-block-old: GOLD_PLATE
+  sound: BLOCK_PISTON_EXTEND
+  sound-old: PISTON_EXTEND
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+  - world
+join-boss-bar:
+  enable: true
+  message: '&3Welcome mc.server.net!'
+  color: BLUE
+  style: NOTCHED_20
+  seconds: 10
+join-tab:
+  enable: false
+  update: 1000
+  header: |-
+    &7
+    &f&m--&7&m--&8&m[-&r &6&lMUNDO&f&lPIXELS &7&lNETWORK &8&m-]&7&m--&f&m--
+    &7
+  footer: |-
+    &7
+    &7Website: &7mundopixels.net
+    &7Facebook: &7facebook.mundopixels.net
+    &7Store: &7tienda.mundopixels.net
+    &7
+join-titles:
+  enable: true
+  fade-in: 20
+  stay: 50
+  fade-out: 10
+  title: '&6<player> &7Welcome to'
+  sub-title: '&6&lYOUR&f&lSERVER'
+join-motd:
+  enable: true
+  message:
+  - '&c✦&m                                                     &c✦'
+  - ' '
+  - '                &e&l⭐ &c&lYouserver &e&l⭐'
+  - ' '
+  - '&7 Welcome, &e<player> &7to &c&lYouserver'
+  - ' '
+  - '&6 &lSTORE &fshop.playserver.net'
+  - '&9 &lDISCORD &fdiscord.playserver.net'
+  - '&b &lWEBSITE &fweb.playserver.net'
+  - ' '
+  - ' &7You are playing on &fplay.server.net'
+  - '&c✦&m                                                     &c✦'
+join-action-bar:
+  enable: true
+  seconds: 10
+  message: '&6Welcome to yourserver!'
+commands-blacklist:
+  enable: true
+  bypass: superlobby.admin
+  list:
+  - /p
+  - /pl
+  - /bukkit:pl
+  - /'?'
+  - /bukkit:?
+  - /help
+  - /bukkit:help
+  - /plugins
+  - /bukkit:plugins
+  - /about
+  - /bukkit:about
+  - /ver
+  - /bukkit:ver
+  - /version
+  - /bukkit:version
+  - /gc
+  - /tps
+  - /me
+  - /bukkit:me
+  - /bukkit:ehelp
+  - /icanhasbukkit
+  - /icanhasspigot
+  - /info
+  - /mc:help
+  - /minecraft:help
+  - /essentials:help
+  - /essentials:ehelp
+  - /perm
+  - /mv
+  - /multiverse-core:mv
+  - /we
+  - /worldedit
+disable-tab-complete:
+  enable: false
+  bypass: superlobby.staff
+  whitelist:
+  - /warp
+  - /menu
+  - /games
+  - /info
+  - /yt
+  - /pay
+  - /tpa
+  - /tpaccept

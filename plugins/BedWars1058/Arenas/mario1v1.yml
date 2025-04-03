@@ -1,0 +1,66 @@
+# BedWars1058 arena configuration file.
+# Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/configuration/Arena-Configuration
+group: 1v1
+display-name: Mario
+minPlayers: 2
+maxInTeam: 1
+allowSpectate: true
+spawn-protection: 5
+shop-protection: 2
+upgrades-protection: 2
+generator-protection: 2
+island-radius: 17
+worldBorder: 300
+y-kill-height: -1
+max-build-y: 180
+disable-generator-for-empty-teams: false
+disable-npcs-for-empty-teams: true
+vanilla-death-drops: false
+use-bed-hologram: true
+allow-map-break: false
+game-rules:
+- doDaylightCycle:false
+- announceAdvancements:false
+- doInsomnia:false
+- doImmediateRespawn:true
+- doWeatherCycle:false
+- doFireTick:false
+waiting:
+  Pos1: -16.70539436713053,120.68183410464385,22.47605894355673,-134.70880126953125,-5.053952217102051
+  Pos2: 18.361440288565703,148.58815717357984,-17.4565367867721,17.09613037109375,26.330368041992188
+  Loc: 0.5,138.0,4.5,89.5,1.5
+spectator-loc: -0.45664512132952245,124.04010290126483,4.895822936215269,181.81591796875,17.407989501953125
+Team:
+  Red:
+    Color: RED
+    Spawn: 0.5,77.0,-81.5,0.5,-4.5
+    Bed: 0.0,74.0,-68.0,0.12470342218875885,0.0
+    Iron:
+    - 5.5,73.5,-73.5,232.5,85.5
+    Gold:
+    - 5.5,73.5,-73.5,232.5,85.5
+    Emerald:
+    - 5.5,73.5,-73.5,232.5,85.5
+    Shop: -3.5,74.0,-72.5,267.5,-1.5
+    Upgrade: -3.5,74.0,-70.5,271.5,-6.5
+  Blue:
+    Color: BLUE
+    Spawn: 0.5,77.0,86.5,-181.5,4.5
+    Bed: 0.0,74.0,71.0,-181.06793212890625,0.0
+    Iron:
+    - -4.5,73.5,78.5,3.5,89.5
+    Gold:
+    - -4.5,73.5,78.5,3.5,89.5
+    Emerald:
+    - -4.5,73.5,78.5,3.5,89.5
+    Shop: 4.5,74.0,77.5,89.5,3.5
+    Upgrade: 4.5,74.0,75.5,91.5,0.5
+generator:
+  Diamond:
+  - 0.5,73.0,-42.5,359.5,86.5
+  - 0.5,73.0,47.5,4.5,90.0
+  Emerald:
+  - 0.5,76.0,-8.5,2.5,87.5
+  - -10.5,76.0,2.5,333.5,88.5
+  - 0.5,76.0,13.5,276.5,89.5
+  - 11.5,76.0,2.5,266.5,89.5

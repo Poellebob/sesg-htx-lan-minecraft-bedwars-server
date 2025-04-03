@@ -1,0 +1,284 @@
+
+menu_title: '&8Games Menú'
+open_command:
+- menu
+- games
+- game
+open_commands:
+  - '[sound] ENTITY_CHICKEN_EGG'
+size: 54
+open_requirement:
+  requirements:
+    example_1:
+      type: has permission
+      permission: open.menu.*
+  deny_commands:
+  - '[message] &C&LSERVER &8&l»&7 You don''t have permission.'
+items:
+  GRAY_STAINED_GLASS_PANE:
+    material: STAINED_GLASS_PANE
+    data: 7
+    slots:
+    - 11
+    - 13
+    - 15
+    - 17
+    - 21
+    display_name: '&r'
+  BOTTOM_CYAN_STAINED_GLASS_PANE:
+    material: STAINED_GLASS_PANE
+    data: 7
+    slots:
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    display_name: '&r'
+  WHITE_STAINED_GLASS_PANE:
+    material: STAINED_GLASS_PANE
+    data: 7
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 18
+    - 19
+    - 23
+    - 25
+    - 29
+    - 31
+    - 33
+    - 26
+    - 27
+    - 35
+    - 36
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: '&r'
+  MINIGAMES:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhhNzAyMDc0YmViYjFhOGMwMDBlZjcwYTgzYjhiZGVjZjE4NmY2NDFiMzM0MmQ0MTc2MGVlYTg3ZjQyNWEwIn19fQ==
+    slot: 22
+    display_name: '&5&lMINIGAMES &c&lCOMING SOON'
+    lore:
+    - '&8Fun'
+    - ''
+    - '&f&l» &7Enjoy playing with your friends'
+    - '&7in different &5mini-games &7we offer!'
+    - '&7Be the king of the track'
+    left_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    right_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+  PRACTICE:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRkYmNiN2UxZmJlY2VhOWE3MzUwNDM2Y2JiZWEyYjQ5NmY3NGMyOTcyMDRmMWJiOWFjYzM4NzhkNTQyY2NiIn19fQ==
+    slot: 20
+    display_name: '&b&lPRACTICE &c&lCOMING SOON'
+    lore:
+    - '&8Fight against other users'
+    - ''
+    - '&f&l» &7Practice your &bPvP &7skills with'
+    - '&7other players, prevail against others'
+    - '&7and be the king of &bPvP'
+    left_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    right_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+  survival:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZiYjlmYjk3YmE4N2NiNzI3Y2QwZmY0NzdmNzY5MzcwYmVhMTljY2JmYWZiNTgxNjI5Y2Q1NjM5ZjJmZWMyYiJ9fX0=
+    slot: 10
+    display_name: '&a&LSURVIVAL'
+    lore:
+    - '&8Survive and explore the world'
+    - ''
+    - '&f&l» &7Explore the &aworld &7with your'
+    - '&7friends or alone, collect resources,'
+    - '&7face against adversity, build your'
+    - '&7lair or explore your creativity and'
+    - '&7be the best survivor in the world'
+    - ''
+    - '&f&l» &a0&8/&c100'
+    left_click_commands:
+    - '[connect] survival'
+    - '[message] &C&LSERVER &8&l»&c Erase this line when you connect your server
+      on the network&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    right_click_commands:
+    - '[connect] survival'
+    - '[message] &C&LSERVER &8&l»&c Erase this line when you connect your server
+      on the network&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+  skyblock:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    slot: 12
+    display_name: '&2&lSKYBLOCK'
+    lore:
+    - '&8Build your island'
+    - ''
+    - '&f&l» &7Explore your &5creativity'
+    - '&7building a floating island, trade'
+    - '&7resources, generate your farms,'
+    - '&7and more. Try not to fall into'
+    - '&7the void!'
+    - ''
+    - '&f&l» &a0&8/&c100'
+    left_click_commands:
+    - '[connect] skyblock'
+    - '[message] &C&LSERVER &8&l»&c Erase this line when you connect your server
+      on the network&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    right_click_commands:
+    - '[connect] skyblock'
+    - '[message] &C&LSERVER &8&l»&c Erase this line when you connect your server
+      on the network&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+  prison:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc3NjA4ZWY2YmVhYWUwMjhhOGQxMDBjMzE5ZWQ2ZTg5YzFkMWUyNzkwYmI1ZjNhYzcyZjBhYTZhYzJjNWQ4NSJ9fX0=
+    slot: 14
+    display_name: '&e&lPRISON &c&lCOMING SOON'
+    lore:
+    - '&8Fun'
+    - ''
+    - '&f&l» &7Be the best &cprisoner &7of,'
+    - '&7all, get coins, rise in rank,'
+    - '&7and so on!'
+    left_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    right_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+  prisonop:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzkzN2VkY2YyYzI5NzZmZDQ2MTdiOTlmMzYzZDNkNjI4MzJhYjk0ODlhMjcwOWRlZTI3NGY3OTllMjk4MzY4OCJ9fX0=
+    slot: 16
+    display_name: '&e&lPRISON &c&lOP &c&lCOMING SOON'
+    lore:
+    - '&8Fun'
+    - ''
+    - '&f&l» &7Be the best &cprisoner &lOP &7of,'
+    - '&7all, get coins, rise in rank,'
+    - '&7and so on!'
+    left_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    right_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+  bedwars:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiMjkwYTEzZGY4ODI2N2VhNWY1ZmNmNzk2YjYxNTdmZjY0Y2NlZTVjZDM5ZDQ2OTcyNDU5MWJhYmVlZDFmNiJ9fX0=
+    slot: 28
+    display_name: '&c&lBEDWARS'
+    lore:
+    - '&8Protect your egg with other players'
+    - ''
+    - '&f&l» &7Protect your &cbed &7with your'
+    - '&7companions and destroy at the same'
+    - '&7time that of your enemies! Remember'
+    - '&7to upgrade your mineral generators'
+    - '&7to get the upper hand in the game!'
+    - ''
+    - '&C&lYOU ARE IN!!'
+    left_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 You are in BedWars!'
+    - '[sound] ENTITY_VILLAGER_NO'
+    right_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 You are in BedWars!'
+    - '[sound] ENTITY_VILLAGER_NO'
+  eggwars:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBjYmI4YmQzMmE5Zjg3MjAyYjk3MWY2MzZiNzAyZjk4ZDUxOThjOGM0ZWRmZGZmYmZlY2JhODlmN2E1OTE1NSJ9fX0=
+    slot: 24
+    display_name: '&6&lEGGWARS &c&lCOMING SOON'
+    lore:
+    - '&8Protect your bed with other players'
+    - ''
+    - '&f&l» &7Protect your &cegg &7with your'
+    - '&7companions and destroy at the same'
+    - '&7time that of your enemies! Remember'
+    - '&7to upgrade your mineral generators'
+    - '&7to get the upper hand in the game!'
+    left_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    right_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+  skywars:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc5ODBiOTQwYWY4NThmOTEwOTQzNDY0ZWUwMDM1OTI4N2NiMGI1ODEwNjgwYjYwYjg5YmU0MjEwZGRhMGVkMSJ9fX0=
+    slot: 30
+    display_name: '&e&lSKYWARS &c&lCOMING SOON'
+    lore:
+    - '&8Be the king of the islands'
+    - ''
+    - '&f&l» &7Be the king of the floating'
+    - '&7&5islands&7, kill all opponents'
+    - '&7before they do it to you.'
+    left_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    right_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+  buildbattle:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY2NjVmODIzZTBlMDhkMDgwMGM3MjIzYTc2MjVmMTExNGFkMThiN2RmM2ZkMmQ2N2RlN2FkNzBhODA2Y2E4NCJ9fX0=
+    slot: 32
+    display_name: '&a&lBUILD BATTLE &c&lCOMING SOON'
+    lore:
+    - '&8Be the king of the constructions'
+    - ''
+    - '&f&l» &7Are you good at &abuilding?'
+    - '&7Test your &abuilding&7 skills against'
+    - '&7rivals, and be the best of all.'
+    left_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    right_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+  tntgames:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg4ZmI2YjJiM2VmYTZhYjI5OWY5ZjRlN2Q4YzFhMWQ3MzM4NzUzYmRmOGZlZjgxMDc1ZjIxNTU5NDNiYzY5In19fQ==
+    slot: 34
+    display_name: '&c&lTNT GAMES &c&lCOMING SOON'
+    lore:
+    - '&8Be the most skilled'
+    - ''
+    - '&f&l» &7Run on the &ctnt &7and avoid'
+    - '&7falling into the void, in addition'
+    - '&7to different modes with tnt :D'
+    left_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+    right_click_commands:
+    - '[message] &C&LSERVER &8&l»&7 This game mode will be available &csoon&7.'
+    - '[sound] ENTITY_VILLAGER_NO'
+  close:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 49
+    display_name: '&c&lClose'
+    lore:
+    - '&8Click to close menu'
+    left_click_commands:
+    - '[close]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    right_click_commands:
+    - '[close]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'

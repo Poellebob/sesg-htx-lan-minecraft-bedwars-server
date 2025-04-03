@@ -1,0 +1,102 @@
+#######################                       #######################
+#      _____                                                        #
+#     /    /  /\     /                              _   _   _       #
+#    /___ /  /  \   / |\_/|  _  ___ |\       \   / |_|  _| | |      #
+#   /    /  /    \ /  |   | | |  |  | |  -->  \_/.  _|.|_. |_|      #
+#  /    /  /      /   |   | |_|  |  |/                              #
+#                                                                   #
+####################         Strings.yml         ####################
+
+#
+#All strings in this file support placeholders!
+#
+
+#
+#Online Placeholders:
+#
+
+#
+#Placeholder: %online%
+#Description: display real server's online
+#
+
+#
+#Placeholder: %fakeOnline%
+#Description: display fake server's online
+#
+#This placeholder only works if you
+#allow usage of Data.yml file in
+#config.yml, by setting Data: true
+#
+
+#
+#MaxPlayers Placeholders:
+#
+
+#
+#Placeholder: %maxplayers%
+#Description: display number of real server's slots
+#
+
+#
+#Placeholder: %fakeMaxplayers%
+#Description: display number of fake server's
+#
+#This placeholder only works if you
+#allow usage of Data.yml file in
+#config.yml, by setting Data: true
+#
+
+#
+#Hex colors placeholder
+#
+#Your server does not support
+#rgb placeholders! Update it to
+#1.16+ spigot/paper/tuinity
+#or use bungeecord.
+#
+#If you believe that this is a mistake,
+#set value of the field below to true
+#and fully reload your server (with server's
+#reload command):
+forceHexSupport: false
+#Only change the field above if you know
+#what you are doing.
+#You can find out how to use rgb placeholders here:
+#https://www.spigotmc.org/resources/advancednmotd-
+#let-your-motd-smile.58677/update?update=370795
+#
+    
+Motd:
+    
+    #What should be displayed on line 1 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineTwo section)
+    LineOne:
+        - "&c&lBED WARS SETUP &7&l|&r &b1.8-1.20.x &7&l| &r&fThe &6&lBest &r&fSetup"
+        - "&c&lBED WARS SETUP &7&l|&r &b1.8-1.20.x &7&l| &r&fThe &b&lBest &r&fSetup"
+        - "&c&lBED WARS SETUP &7&l|&r &b1.8-1.20.x &7&l| &r&fThe &e&lBest &r&fSetup"
+
+    
+    #What should be displayed on line 2 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineOne section)
+    LineTwo:
+        - "&7&l>&r&f&l BIG UPDATE"
+        - "&7&l>&r&f&l Support our Setup! And Review!"
+        - "&7&l>&r&f&l You want more &csetups&f? Let me &eknown"
+    
+HoverBox:
+
+    #What text should be displayed when you hover over a player amount text:
+    HoverText:
+        - "&c&lBed Wars Setup"
+        - ""
+        - "&fOnline: &b%fakeOnline%"
+        - "&fMax Players: &b%fakeMaxplayers%"
+        
+Version:
+    
+    #What text should be displayed instead of player amount text:
+    VersionText: "&eConnect &9>>                                                &aEnter Now! &8[&f%fakeOnline%&r&7/&f%fakeMaxplayers%&8]"
+    

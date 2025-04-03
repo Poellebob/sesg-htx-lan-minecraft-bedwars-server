@@ -1,0 +1,8 @@
+polymart:
+    upload: { id: '11534', version: '1.2', type: RELEASE }
+    download: { id: '223581', time: 1686396767 }
+    resource: { id: '1937', title: 'BW1058 Spectator Options FREE !', subtitle: 'BedWars1058 Spectator Settings and Play Again ( With DeluxeMenu )', price: '0.00', url: 'https://polymart.org/resource/bw1058-spectator-options-free.1937' }
+injector:
+    version: 1
+    nonce: p_FFA27MycKe
+    token: ODgwN2EwZDk5Nzdj

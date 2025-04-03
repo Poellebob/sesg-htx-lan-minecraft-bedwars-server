@@ -1,0 +1,84 @@
+
+message:
+  enable: false
+  interval: 400
+  list:
+    message1:
+    - '&6✦&m                                                     &6✦'
+    - ' '
+    - '                    &6&lSTORE'
+    - '          &7Support the server so that'
+    - '        &7Swe are online by buying ranks'
+    - '               &fshop.playserver.net'
+    - ' '
+    - '&6✦&m                                                     &6✦'
+    message2:
+    - '&9✦&m                                                     &9✦'
+    - ' '
+    - '                    &9&lDISCORD'
+    - '          &7Remember to join the discord'
+    - '       &7server to stay on top about updates'
+    - '               &fdiscord.playserver.net'
+    - ' '
+    - '&9✦&m                                                     &9✦'
+    message3:
+    - '&b✦&m                                                     &b✦'
+    - ' '
+    - '                    &b&lWEBSITE'
+    - '          &7Remember to visit our website'
+    - '               &fweb.playserver.net'
+    - ' '
+    - '&b✦&m                                                     &b✦'
+    message4:
+    - '&c✦&m                                                     &c✦'
+    - ' '
+    - '                    &c&lTHANKS'
+    - '           &7Thank you for trusting us'
+    - '           &7as a pastime of enjoyment'
+    - ' '
+    - '&c✦&m                                                     &c✦'
+titles:
+  enable: true
+  interval: 500
+  list:
+    titles1:
+      fadein: 20
+      stay: 50
+      fadeout: 10
+      title: '&6&lPLAY&f&lSERVER &f&lNETWORK!'
+      subtitle: '&6The best server'
+    titles2:
+      fadein: 20
+      stay: 50
+      fadeout: 10
+      title: '&bThe Official server'
+      subtitle: '&bplay.server.net'
+bossbar:
+  enable: true
+  interval: 200
+  list:
+    bossbar1:
+      color: RED
+      style: NOTCHED_20
+      seconds: 10
+      message: '&bplay.server.net'
+    bossbar2:
+      color: PURPLE
+      style: NOTCHED_20
+      seconds: 10
+      message: '&6&lPLAY&f&lSERVER &f&lNETWORK!'
+    bossbar2:
+      color: YELLOW
+      style: NOTCHED_20
+      seconds: 10
+      message: '&c&l75% OFF &8➩ &fVisit now our store!'
+actionbar:
+  enable: true
+  interval: 300
+  list:
+    actionbar1:
+      stay: 50
+      message: '&bplay.server.net'
+    actionbar2:
+      stay: 50
+      message: '&6&lPLAY&f&lSERVER &f&lNETWORK!'

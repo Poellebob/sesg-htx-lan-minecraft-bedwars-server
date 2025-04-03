@@ -1,0 +1,149 @@
+open_requirement:
+  requirements:
+    example_3:
+      type: string equals
+      input: "%bw1058_player_team%"
+      output: "&7[SPECTATOR]"
+  deny_commands:
+    - "[message] &cYou don't have the permission."
+menu_title: '&8Play Again'
+open_command:
+- play again
+size: 27
+update_interval: 1
+items:
+      0:
+        material: BEACON
+        slot: 11
+        display_name: '&aSolo'
+        lore:
+        - '&8%bw1058_group_count_Solo% Players'
+        - ''
+        - '&7Play Bed Wars Solo'
+        - '&c'
+        - '&eClick to join!'
+        left_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To Solo ! <delay=8>'
+        - '[player] bw join Solo <delay=20>'
+        right_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To Solo ! <delay=8>'
+        - '[player] bw join Solo <delay=20>'
+      1:
+        material: BEACON
+        slot: 10
+        display_name: '&aDuels'
+        lore:
+        - '&8%bw1058_group_count_Duels% Players'
+        - ''
+        - '&7Play Bed Wars Duels'
+        - '&c'
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To Duels ! <delay=8>'
+        - '[player] bw join Duels <delay=20>'
+        right_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To Duels ! <delay=8>'
+        - '[player] bw join Duels <delay=20>'
+      2:
+        material: BEACON
+        slot: 12
+        display_name: '&aDoubles'
+        lore:
+        - '&8%bw1058_group_count_Doubles% Players'
+        - ''
+        - '&7Play Bed Wars Doubles'
+        - '&c'
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To Doubles ! <delay=8>'
+        - '[player] bw join Doubles <delay=20>'
+        right_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To Doubles ! <delay=8>'
+        - '[player] bw join Doubles <delay=20>'
+      3:
+        material: BEACON
+        slot: 13
+        display_name: '&a3v3v3v3'
+        lore:
+        - '&8%bw1058_group_count_3v3v3v3% Players'
+        - ''
+        - '&7Play Bed Wars 3v3v3v3'
+        - '&c'
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To 3v3v3v3 ! <delay=8>'
+        - '[player] bw join 3v3v3v3 <delay=20>'
+        right_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To 3v3v3v3 ! <delay=8>'
+        - '[player] bw join 3v3v3v3 <delay=20>'
+      4:
+        material: BEACON
+        slot: 14
+        display_name: '&a4v4'
+        lore:
+        - '&8%bw1058_group_count_4v4% Players'
+        - ''
+        - '&7Play Bed Wars 4v4'
+        - '&c'
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To 4v4 ! <delay=8>'
+        - '[player] bw join 4v4 <delay=20>'
+        right_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To 4v4 ! <delay=8>'
+        - '[player] bw join 4v4 <delay=20>'
+      5:
+        material: BEACON
+        slot: 15
+        display_name: '&a4v4v4v4'
+        lore:
+        - '&8%bw1058_group_count_4v4v4v4% Players'
+        - ''
+        - '&7Play Bed Wars 4v4v4v4'
+        - '&c'
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To 4v4v4v4 ! <delay=8>'
+        - '[player] bw join 4v4v4v4 <delay=20>'
+        right_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To 4v4v4v4 ! <delay=8>'
+        - '[player] bw join 4v4v4v4 <delay=20>'
+      6:
+        material: BEACON
+        slot: 16
+        display_name: '&aVoidless'
+        lore:
+        - '&8%bw1058_group_count_Voidless% Players'
+        - ''
+        - '&7Play Bed Wars Voidless'
+        - '&c'
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To Voidless ! <delay=8>'
+        - '[player] bw join Voidless <delay=20>'
+        right_click_commands:
+        - '[player] bw leave'
+        - '[messsage] &aSending You To Voidless ! <delay=8>'
+        - '[player] bw join Voidless <delay=20>'
+      CLOSE:
+        material: BARRIER
+        slot: 22
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

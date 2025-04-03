@@ -1,0 +1,14 @@
+
+Info:
+help:
+  command: help
+  permission: superlobby.help
+  info:
+  - '&c✦&m                                                     &c✦'
+  - ' '
+  - '                    &c&lHELP'
+  - '               &7If you need help,'
+  - '         &7consider joining our discord'
+  - '            &fdiscord.playserver.net'
+  - ' '
+  - '&c✦&m                                                     &c✦'

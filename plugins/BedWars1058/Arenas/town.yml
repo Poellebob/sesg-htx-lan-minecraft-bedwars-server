@@ -1,0 +1,91 @@
+# BedWars1058 arena configuration file.
+# Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/configuration/Arena-Configuration
+group: 3v3v3v3
+display-name: ''
+minPlayers: 6
+maxInTeam: 3
+allowSpectate: true
+spawn-protection: 5
+shop-protection: 2
+upgrades-protection: 2
+generator-protection: 2
+island-radius: 17
+worldBorder: 300
+y-kill-height: -1
+max-build-y: 180
+disable-generator-for-empty-teams: false
+disable-npcs-for-empty-teams: true
+vanilla-death-drops: false
+use-bed-hologram: true
+allow-map-break: false
+game-rules:
+- doDaylightCycle:false
+- announceAdvancements:false
+- doInsomnia:false
+- doImmediateRespawn:true
+- doWeatherCycle:false
+- doFireTick:false
+spectator-loc: 1.2531296539743937,107.11404714754102,0.4493399341752456,0.935941755771637,-1.123092770576477
+waiting:
+  Loc: 0.5,129.0,0.5,0.5,0.5
+  Pos1: 14.784438582143842,118.97580380946357,17.220250504054064,-217.64642333984375,1.5250221490859985
+  Pos2: -15.401181853835231,138.87312949611223,-18.50965058702021,-41.27301025390625,6.516544342041016
+generator:
+  Emerald:
+  - 1.5,89.0,-4.5,-356.5,85.5
+  - 0.5,89.0,0.5,-1.5,86.5
+  - 1.5,89.0,5.5,-0.5,86.5
+  Diamond:
+  - 66.5,87.0,67.5,-61.5,87.5
+  - -64.5,87.0,66.5,-268.5,88.5
+  - -63.5,87.0,-64.5,-178.5,89.5
+  - 67.5,87.0,-63.5,-88.5,90.0
+Team:
+  Green:
+    Color: GREEN
+    Spawn: 1.5,85.0,-69.5,0.5,-1.5
+    Bed: 1.0,85.0,-58.0,0.0,0.0
+    Upgrade: 8.5,85.0,-70.5,88.5,0.5
+    Shop: 8.5,85.0,-68.5,89.5,-1.5
+    Iron:
+    - 1.5,84.5,-73.5,-2.5,-0.5
+    Gold:
+    - 1.5,84.5,-73.5,-2.5,-0.5
+    Emerald:
+    - 1.5,84.5,-73.5,-2.5,-0.5
+  Blue:
+    Color: BLUE
+    Spawn: 72.5,85.0,1.5,89.5,2.5
+    Bed: 59.0,85.0,1.0,0.0,0.0
+    Upgrade: 73.5,85.0,8.5,-180.5,-0.5
+    Shop: 71.5,85.0,8.5,-179.5,-8.5
+    Iron:
+    - 76.5,84.5,1.5,-270.5,-0.5
+    Gold:
+    - 76.5,84.5,1.5,-270.5,-0.5
+    Emerald:
+    - 76.5,84.5,1.5,-270.5,-0.5
+  Red:
+    Color: RED
+    Spawn: 1.5,85.0,72.5,-180.5,-0.5
+    Bed: 1.0,85.0,59.0,0.0,0.0
+    Upgrade: -5.5,85.0,73.5,-94.5,0.5
+    Shop: -5.5,85.0,71.5,-92.5,-1.5
+    Iron:
+    - 1.5,84.5,76.5,-177.5,25.5
+    Gold:
+    - 1.5,84.5,76.5,-177.5,25.5
+    Emerald:
+    - 1.5,84.5,76.5,-177.5,25.5
+  Yellow:
+    Color: YELLOW
+    Spawn: -69.5,85.0,1.5,270.5,1.5
+    Bed: -58.0,85.0,1.0,0.0,0.0
+    Upgrade: -70.5,85.0,-5.5,-4.5,-5.5
+    Shop: -68.5,85.0,-5.5,-5.5,-3.5
+    Iron:
+    - -73.5,84.5,1.5,-91.5,9.5
+    Gold:
+    - -73.5,84.5,1.5,-91.5,9.5
+    Emerald:
+    - -73.5,84.5,1.5,-91.5,9.5

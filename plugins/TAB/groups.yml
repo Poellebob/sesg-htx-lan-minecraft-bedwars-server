@@ -1,0 +1,5 @@
+_DEFAULT_:
+  tabprefix: '%condition:rankOrTeam%'
+  tagprefix: '%condition:rankOrTeam%'
+  tabsuffix: '%luckperms_suffix%'
+  tagsuffix: '%luckperms_suffix%'

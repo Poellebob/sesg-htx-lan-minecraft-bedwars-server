@@ -1,0 +1,27 @@
+location: world:11,5:74,500:-24,5
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 0.0
+down-origin: true
+pages:
+- lines:
+  - content: <#ANIM:burn:&b&l,&e&l>BedWars Statistics</#ANIM>
+    height: 0.6
+  - content: '#ICON: DIAMOND_SWORD'
+    height: 0.8
+  - content: '&a✔ &bTime played: &b%bw1058_elapsed_time%'
+    height: 0.3
+  - content: '&a✔ &bTotal Games Played: %bw1058_stats_gamesplayed%'
+    height: 0.3
+  - content: '&a✔ &bTotal Beds Destroyed: &b%bw1058_stats_bedsdestroyed%'
+    height: 0.3
+  - content: '&a✔ &bTotal Final Kills: %bw1058_stats_finalkills%'
+    height: 0.3
+  - content: '&a✔ &bTotal Kills: %bw1058_stats_total_kills%'
+    height: 0.3
+  - content: '&a✔ &bTotal Wins: %bw1058_stats_wins%'
+    height: 0.6
+  - content: '#ICON: DIAMOND_SWORD'
+    height: 0.8

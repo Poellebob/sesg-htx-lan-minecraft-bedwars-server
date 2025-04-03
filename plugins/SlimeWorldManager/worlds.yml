@@ -1,0 +1,12 @@
+worlds:
+    glacier:
+        source: file
+        spawn: 0.5, 150, 0.5
+        difficulty: normal
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: default
+        loadOnStartup: false
+        readOnly: true

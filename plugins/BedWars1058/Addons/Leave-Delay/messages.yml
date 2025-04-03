@@ -1,0 +1,5 @@
+# Bedwars1058-LeaveDelay Addon for Bedwars1058 by Zuyte!
+# Documentation: https://zuyte.netlify.app/docs/Welcome
+start: '&a&lTeleporting you to the lobby in 3 seconds... Right-click again to cancel
+  the teleport!'
+cancel: '&c&lTeleport cancelled!'

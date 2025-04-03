@@ -1,0 +1,40 @@
+
+admin:
+  permission: superlobby.admin
+  join-message: '&eThe admin &a<player> &ejoined the server!'
+  quit-message: '&eThe admin &c<player> &eleave the server!'
+  join-firework: random, 5
+  join-sound: ENTITY_GENERIC_EXPLODE
+  join-sound-old: EXPLODE
+silent:
+  permission: superlobby.staff
+  join-message: none
+  quit-message: none
+mvp+:
+  permission: superlobby.mvp+
+  join-message: '&6[MVP+] <player> &ejoined the server!'
+  quit-message: '&6[MVP+] <player> &eleave the server!'
+  join-firework: random, 5
+  join-sound: ENTITY_GENERIC_EXPLODE
+  join-sound-old: EXPLODE
+mvp:
+  permission: superlobby.mvp
+  join-message: '&b[MVP] <player> &ejoined the server!'
+  quit-message: '&b[MVP] <player> &eleave the server!'
+  join-firework: random, 5
+  join-sound: ENTITY_GENERIC_EXPLODE
+  join-sound-old: EXPLODE
+vip+:
+  permission: superlobby.vip+
+  join-message: '&a[VIP+] <player> &ejoined the server!'
+  quit-message: '&a[VIP+] <player> &eleave the server!'
+  join-firework: random, 3
+vip:
+  permission: superlobby.vip
+  join-message: '&a[VIP] <player> &ejoined the server!'
+  quit-message: '&a[VIP] <player> &eleave the server!'
+  join-firework: random, 1
+default:
+  permission: superlobby.default
+  join-message: '&a<player> &ejoined the server!'
+  quit-message: '&c<player> &eleave the server!'

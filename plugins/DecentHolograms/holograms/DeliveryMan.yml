@@ -1,0 +1,13 @@
+location: world:12,5:79:-12,5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&bThe Delivery Man'
+    height: 0.3
+  - content: '&e&lRIGHT CLICK'
+  actions: {}

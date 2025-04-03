@@ -1,0 +1,37 @@
+# BedWars1058-MapSelector v1.3.1 made by [itz_leoo].
+# Dependencies: [].
+# SoftDependencies: [BedWarsProxy, BedWars1058, PlaceholderAPI].
+# Join my discord for support: https://discord.gg/dtwanz4GQg
+
+9570503b-2879-4302-90b9-194f85df16f8:
+  favorite-maps: []
+  per-map-times-joined:
+    desert: 37
+    desertsolo: 1
+    desert town: 1
+    glacier: 6
+    cascade: 14
+    toro: 10
+    rooftop: 6
+    town: 7
+    submarine: 8
+    amongus: 1
+    martian: 5
+    gift: 2
+    arabic: 7
+    laptop: 3
+    city: 1
+    party: 4
+    lighthouse: 2
+    valley: 1
+    thepandas: 6
+    mario: 2
+c789b863-a584-44b2-b192-a109132430b2:
+  favorite-maps: &id003 []
+  per-map-times-joined: *id003
+258a513a-e500-41d7-922e-655e50d589ed:
+  favorite-maps: *id003
+  per-map-times-joined: *id003
+5b023c21-79f2-46ba-b3e4-5bc740020842:
+  favorite-maps: &id004 []
+  per-map-times-joined: *id004

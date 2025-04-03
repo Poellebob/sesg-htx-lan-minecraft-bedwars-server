@@ -1,0 +1,14 @@
+location: world:12,5:80,0:9,5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lThese setup was made by'
+    height: 0.3
+  - content: '&b@AlexRF02'
+  actions: {}
+

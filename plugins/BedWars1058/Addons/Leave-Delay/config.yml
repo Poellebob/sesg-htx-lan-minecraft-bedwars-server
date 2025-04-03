@@ -1,0 +1,10 @@
+# Bedwars1058-LeaveDelay Addon for Bedwars1058 by Zuyte!
+# Documentation: https://zuyte.netlify.app/docs/Welcome
+item:
+  material: BED
+  slot: 8
+  name: '&c&lReturn to Lobby &7(Right Click)'
+  lore:
+  - '&fRight-Click to leave arena!'
+settings:
+  delay: 3
