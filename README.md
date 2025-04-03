@@ -8,16 +8,27 @@ Follow these steps to set up the Java Runtime Environment (JRE) for the Bedwars 
 
 ### 1. Download Java Runtime Environment (JRE) 17
 
-Download the appropriate JRE package based on your Windows system:
+Download the appropriate JRE .zip package based on your Windows system:
 
-- For 64-bit Windows (most common): [OpenJDK17U-jre_x64_windows_hotspot_17.0.14_7.zip](https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.14%2B7/OpenJDK17U-jre_x64_windows_hotspot_17.0.14_7.zip)
-- For 32-bit Windows: [OpenJDK17U-jre_x86-32_windows_hotspot_17.0.14_7.zip](https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.14%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.14_7.zip)
+- For Windows (most common is x64): [OpenJDK17U-jre_x64_windows_hotspot_17.0.14_7.zip](https://adoptium.net/temurin/releases/?os=windows&package=jre&version=17)
 
 ### 2. Extract the JRE Files
 
-1. Create a folder named `jre17` in the Bedwars server directory
-2. Extract the downloaded ZIP file
-3. Copy all contents from the extracted folder (e.g., `jdk-17.0.14+7-jre`) to the `jre17` folder
+1. Extract the downloaded ZIP file
+2. Copy all contents from the extracted folder (e.g., `jdk-17.0.14+7-jre`) to the `jre17` folder
+
+It should look like this
+
+```
+server dir
+|-- jre17
+|   |-- bin
+|   |-- conf
+|   |-- legal
+|   |-- lib
+|   |-- NOTICE
+|   |-- release
+```
 
 ### 3. Verify Installation
 
