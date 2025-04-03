@@ -10,7 +10,7 @@ Follow these steps to set up the Java Runtime Environment (JRE) for the Bedwars 
 
 Download the appropriate JRE .zip package based on your Windows system:
 
-- For Windows (most common is x64): [OpenJDK17U-jre_x64_windows_hotspot_17.0.14_7.zip](https://adoptium.net/temurin/releases/?os=windows&package=jre&version=17)
+- For Windows (most common is x64): [Adoptium JRE](https://adoptium.net/temurin/releases/?os=windows&package=jre&version=17)
 
 ### 2. Extract the JRE Files
 
