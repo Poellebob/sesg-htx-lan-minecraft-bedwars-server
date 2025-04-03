@@ -42,7 +42,7 @@ server dir
 
 ### 4. Starting the Server
 
-Now that you have Java installed, you can start the Bedwars server by running the start.bat.
+Now that you have Java installed, you can start the Bedwars server by running the `start.bat`.
 
 ## Linux Setup Instructions
 
